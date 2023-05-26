@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Cifrado</title>
+</head>
+<body>
+
+    <header>
+        <img src="vector.png" alt="Logo app" width="2%">
+        <div class="titulo"> Primer reto </div>
+    </header>
+
+
+    <main>
+        <section class="primeraSeccion">
+            <input type="text" id="textoIntroducido" placeholder="Ingrese el texto aqui" class="textarea">
+            <div class="botones">
+                <button type="button" class="encriptador" id="botonEncriptador"onClick=encriptar();>Encriptar</button>
+                <button type="button" class="desencriptador" id="botonDesencriptador"onClick=desencriptar();>Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="segundaSeccion">
+
+            <textarea name="resultado" class="salida" id="textoSalida" cols="30" rows="10" readonly></textarea>
+
+            <div id="desaparecer1" class="imagenMuñeco">
+                <img src="Muñeco.png" alt="ningunMensaje">
+            </div>
+
+            <div id="desaparecer2" class="advertencia">
+                <h3>No se encontró ningun mensaje</h3>
+            </div>
+
+            <div id="desaparecer3" class="recomendacion">
+                <p>Escribe el Texto que desea encriptar o desencriptar</p>
+            </div>
+
+            <button type="button" class="copiar" id="botonCopiar"onClick=copiar();>Copiar</button>
+            
+        </section>
+
+    </main>
+    <footer>
+        By Edgar Lee Ramírez
+    </footer>
+
+</body>
+
+</html>

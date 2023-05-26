@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    font-size: 25px;
+
+
+}
+
+header img {
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-right: 100%;
+    text-align: left;
+    display: inline;
+    
+}
+
+.titulo{
+height: 10px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    display: inline;
+}
+
+main{
+    width: 100%;
+    height: 795px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    width: 100%;
+    height: 107px;
+    background-color: black;
+}
+
+section{
+    height: 100%;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 30px;
+}
+.primeraSeccion{
+    width: 60%;
+    height: 90%;
+    margin-left:10px;
+    justify-content: space-between;
+}
+.segundaSeccion{
+    width: 30%;
+    height: 90%;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+
+.imagenMuñeco{
+   width: 100%;
+   margin-top: 10%;
+   height: 50% ;
+   padding: 20px;
+    text-align: center;
+}
+
+.advertencia{
+    width: 100%;
+    height: 15%;
+    text-align: center;
+}
+
+.recomendacion{
+    width: 100%;
+    height: 15%;
+
+    text-align: center;
+}
+
+.copiar{
+    width: 60%;
+    height: 45px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.textarea{
+    width: 70%;
+    height: 60%;
+    resize: none;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px; 
+    font-size: 21px;
+    border-radius: 20px;
+    border: white;
+}
+
+.salida{
+    width: 100%;
+    height: 90%;
+    margin-top: 10px;
+    resize: none;
+    text-align: center;
+  background-color: white;
+  border-radius: 30px;
+  border: white;
+  font-size: 20px;
+}
+
+
+.botones{
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+.encriptador, .desencriptador{
+    width: 33%;
+    height: 39px;
+    border-radius: 10px;
+}
+.encriptador{
+    background-color: rgba(13, 13, 101, 0.767);
+    color: white;
+    border: rgba(13, 13, 101, 0.767);
+}
+
+.desencriptador{
+    background-color: lightgray;
+    border: lightgray;
+}
+
+footer{
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+    color: white ;
+    box-sizing: border-box;
+    
+}
+
+#botonCopiar{
+   display: none;
+}
+
+#textoSalida{
+    display: none;
+}
